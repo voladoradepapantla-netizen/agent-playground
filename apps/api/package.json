@@ -7,7 +7,7 @@
   "main": "src/index.ts",
   "scripts": {
     "dev": "tsx src/index.ts",
-    "test": "node --test test/is-empty-object.test.ts",
+    "test": "node --test test/is-empty-object.test.ts test/is-katakana-letter-small-i-present.test.ts",
     "lint": "echo \"No API lint configured yet\""
   },
   "dependencies": {
